@@ -1,10 +1,10 @@
 # Alphabets
+## Project statement
 Printing English alphabets repeatedly using assembly language (SIC instructions) and simulating it using [SICtools](https://jurem.github.io/SicTools/).
-# Project statement
-To print all the alphabets repeatedly using assembly language (SIC INSTRUCTIONS) and simulate it using SIC tools.
-# SIC Code
+
+## SIC Code
 ```
-abc           START      0
+abc           	START      	0
 repeat 	        CLEAR		A		
 		STA 		offset	
 loop		LDA		offset	 
@@ -23,12 +23,12 @@ td2		TD 		device
 		WD		device	 
 		J 		repeat	
 . constants	
-device	BYTE	X'01'
+device		BYTE	X'01'
 newline 	WORD	10
-asciiA	WORD	65
+asciiA		WORD	65
 count		WORD	26
 . variables
-offset	WORD	0	
-one        WORD	1
+offset		WORD	0	
+one        	WORD	1
 		END		loop
 ```
