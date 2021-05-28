@@ -1,6 +1,6 @@
-abc            START	        0
+abc            	START	        0
 
-repeat 	CLEAR		A		.Clear the accumulator value
+repeat 		CLEAR		A		.Clear the accumulator value
 		STA 		offset		.Stores accumulator into the offset
 
 loop		LDA		offset		.Start of the loop 
