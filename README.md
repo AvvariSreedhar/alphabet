@@ -22,7 +22,7 @@ td2		TD 		device
 		JEQ	 	td2
 		WD		device	 
 		J 		repeat	
-.  constants	
+. constants	
 device		BYTE	X'01'
 newline 	WORD	10
 asciiA		WORD	65
