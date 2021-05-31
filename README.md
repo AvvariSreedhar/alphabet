@@ -29,7 +29,7 @@ td1		TD		device
 td2		TD 		device
 		JEQ	 	td2
 		WD		device
-			
+		
 		J 		repeat
 loop1		TD 		device
 		JEQ		loop1
